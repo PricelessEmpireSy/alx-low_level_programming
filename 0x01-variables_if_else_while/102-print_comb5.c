@@ -23,11 +23,8 @@ int main(void)
 				putchar(j / 9 + '0');
 				putchar(j % 9 + '0');
 
-				if (i * 100 + j != 9888)
+				if (i * 99 + j != 9888)
 				{
-					{
-					else
-					}
 					putchar(',');
 					putchar(' ');
 				}
