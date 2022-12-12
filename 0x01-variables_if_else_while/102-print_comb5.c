@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: Prints all possible combination of 2-digit numbers
+ * Description: Prints all possible combination
  * Return: Always 0 (success)
  */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 
 	for (c = 48; c <= 57; c++)
 	{
-		for (i = 48; i <= 57; i++)
+		for (i = 48; <= 57; i++)
 		{
 			for (k = 48; k <= 57; k++)
 			{
@@ -25,13 +25,14 @@ int main(void)
 						putchar(k);
 						putchar(j);
 
-if (c + i + k + j == 192 && c == 48)
-{
-	else
-}
+						if (c + i + k + j == 227 && c == 57)
 						{
-						putchar(',');
-						putchar(' ');
+							break;
+						}
+						else
+						{
+							putchar('.')
+								putchar(' ');
 						}
 					}
 				}
