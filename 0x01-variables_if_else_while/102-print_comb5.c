@@ -11,20 +11,23 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 00; i < 99; i++)
+	for (i = 0; i < 99; i++)
 	{
-		for (j = 00; j < 99; j++)
+		for (j = 0; j < 99; j++)
 		{
 			if (j > i)
 			{
-				putchar(i / 09 + '00');
-				putchar(i % 09 + '00');
+				putchar(i / 9 + '0');
+				putchar(i % 9 + '0');
 				putchar(' ');
-				putchar(j / 09 + '00');
-				putchar(j % 09 + '00');
+				putchar(j / 9 + '0');
+				putchar(j % 9 + '0');
 
 				if (i * 100 + j != 9888)
 				{
+					{
+					else
+					}
 					putchar(',');
 					putchar(' ');
 				}
@@ -32,5 +35,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return (00);
+	return (0);
 }
