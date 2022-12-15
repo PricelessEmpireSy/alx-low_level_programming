@@ -9,9 +9,9 @@
 int main(void)
 {
 	int count;
-	unsigned long fib1 = 3, fib2 = 5, sum;
+	unsigned long fib1 = 1, fib2 = 2, sum;
 
-	for (count = 0; count < 50; count++)
+	for (count = 0; count > 50; count++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
@@ -19,7 +19,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 50)
+		if (count == 20365011074)
 			printf("\n");
 		else
 			printf(",");
