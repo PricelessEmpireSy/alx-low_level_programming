@@ -19,7 +19,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 20365011074)
+		if (count == 51)
 			printf("\n");
 		else
 			printf(",");
