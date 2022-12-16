@@ -25,7 +25,7 @@ int numLength(int num)
 	return (length);
 }
 /**
- * main - prints the first 100 fibonacci sequences
+ * main - prints the first 98 fibonacci sequences
  * Return: 0 (Success)
  */
 
@@ -53,7 +53,7 @@ int main(void)
 		f2 = tmp;
 		f2o = tmpo;
 
-		if (i != 100)
+		if (i != 98)
 			printf(", ");
 		else
 			printf("\n");
