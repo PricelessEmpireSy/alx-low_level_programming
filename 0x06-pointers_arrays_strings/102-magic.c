@@ -8,7 +8,7 @@
  * @r: buffer for result
  * @size_r: buffer size
  * Description: prints a[2] = 98
- * Return: Address of r or 0
+ * Return: void
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
@@ -16,7 +16,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int a[5];
 	int *p;
 
-	a[2] = 98;
+	a[2] = 196;
 	p = &n;
 	/*
 	 * write your line of code here...
