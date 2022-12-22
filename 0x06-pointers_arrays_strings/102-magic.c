@@ -15,7 +15,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int a[5];
 	int *p;
 
-	a[2] = 196;
+	a[2] = 1024;
 	p = &n;
 	/*
 	 * write your line of code here...
