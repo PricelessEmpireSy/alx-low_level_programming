@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcat - Function that concatenates two strings
- * @dest: Input Value
- * @src: Input Value
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
  *
  * Return: void
  */
