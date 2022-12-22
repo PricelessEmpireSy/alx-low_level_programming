@@ -1,15 +1,6 @@
 #include <stdio.h>
 
-/**
- * infinite_add - adds two numbers
- * @n1: first number
- * @n2: second number
- * @r: buffer for result
- * @size_r: buffer size
- * Description: prints a[2] = 98
- * Return: void
- */
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
+int main(void)
 {
 	int n;
 	int a[5];
